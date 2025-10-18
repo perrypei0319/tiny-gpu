@@ -176,7 +176,7 @@ With the `BRnzp` instruction, the NZP register checks to see if the NZP register
 
 Since threads are processed in parallel, tiny-gpu assumes that all threads "converge" to the same program counter after each instruction - which is a naive assumption for the sake of simplicity.
 
-In real GPUs, individual threads can branch to different PCs, causing **branch divergence** where a group of threads threads initially being processed together has to split out into separate execution.
+In real GPUs, individual threads can branch to different PCs, causing **branch divergence** where a group of threads initially being processed together has to split out into separate execution.
 
 # ISA
 
